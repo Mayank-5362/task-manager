@@ -1,0 +1,23 @@
+{
+  "name": "task-manager-mern",
+  "version": "1.0.0",
+  "description": "Full-stack Task Manager application built with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "echo Run 'npm run server' in one terminal and 'npm run client' in another",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "task-manager",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT"
+}
