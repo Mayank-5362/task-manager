@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "cp public/_redirects dist/_redirects || copy public\\_redirects dist\\_redirects || true",
     "preview": "vite preview"
   },
   "dependencies": {
